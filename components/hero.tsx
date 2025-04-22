@@ -11,7 +11,7 @@ export default function Hero() {
       </div>
       <div className="section-container relative z-10 text-center">
         <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-green-400">
-          Abduvosit Kadirovv
+          Abduvosit Kadirov
         </h1>
         <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto text-gray-300">
           Transforming complex data into actionable insights and building robust data pipelines that drive business
