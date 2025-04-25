@@ -68,6 +68,61 @@ export default function Skills() {
       ),
       description: "Advanced data analysis, pivot tables, and financial modeling",
     },
+    {
+      name: "Tableau",
+      icon: <i className="devicon-tableau-original colored text-5xl mb-4" />,
+      description: "Data visualization and storytelling",
+    },
+    {
+      name: "Airflow",
+      icon: <i className="devicon-apache-plain colored text-5xl mb-4" />,
+      description: "Workflow orchestration and scheduling",
+    },
+    {
+      name: "Spark",
+      icon: <i className="devicon-apachespark-plain colored text-5xl mb-4" />,
+      description: "Distributed big data processing and pipeline design",
+    },
+    {
+      name: "ClickHouse",
+      icon: <i className="devicon-clickhouse-plain colored text-5xl mb-4" />,
+      description: "High-speed OLAP and real-time analytics",
+    },
+    {
+      name: "MongoDB",
+      icon: <i className="devicon-mongodb-plain colored text-5xl mb-4" />,
+      description: "NoSQL data integration for analytical systems",
+    },
+    {
+      name: "Azure Data Factory",
+      icon: <i className="devicon-azure-plain colored text-5xl mb-4" />,
+      description: "Cloud ETL automation for enterprise pipelines",
+    },
+    {
+      name: "PostgreSQL",
+      icon: <i className="devicon-postgresql-plain colored text-5xl mb-4" />,
+      description: "Relational analytics with advanced SQL and AWS",
+    },
+    {
+      name: "Docker",
+      icon: <i className="devicon-docker-plain colored text-5xl mb-4" />,
+      description: "Containerized environments for scalable deployments",
+    },
+    {
+      name: "Jenkins",
+      icon: <i className="devicon-jenkins-plain colored text-5xl mb-4" />,
+      description: "CI/CD automation for data pipelines",
+    },
+    {
+      name: "AWS S3",
+      icon: <i className="devicon-amazonwebservices-plain colored text-5xl mb-4" />,
+      description: "Cloud storage and data lake support",
+    },
+    {
+      name: "Pandas",
+      icon: <i className="devicon-pandas-original colored text-5xl mb-4" />,
+      description: "Efficient data wrangling and transformation in Python",
+    },
   ]
 
   return (
