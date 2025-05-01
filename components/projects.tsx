@@ -11,26 +11,26 @@ export default function Projects() {
     {
       title: "Coffee Shop Sales Performance Dashboard",
       description:
-        "Developed an interactive dashboard to visualize sales performance across different regions and product categories, enabling data-driven decision making for the sales team.",
+        "Developed a dynamic Power BI dashboard to analyze coffee shop sales performance. Data was sourced from Excel and SQL, enabling visualization of daily revenue, top-selling products, and customer trends. The project highlights data modeling, DAX usage, and effective report design.",
       tools: ["Power BI", "SQL", "Excel"],
       image: proimage1,
       link: "https://app.powerbi.com/view?r=eyJrIjoiMzcxNTAwNjUtYzIwNy00NzgyLTg0NGItODgxMjBiN2U1N2RkIiwidCI6IjNkZTg3NDJlLWMwNWYtNGExOC1hNjgyLWUyM2I5MjlmMTM1OSIsImMiOjEwfQ%3D%3D",
     },
     {
-      title: "Customer Segmentation Analysis",
+      title: "blinkit",
       description:
-        "Implemented a machine learning model to segment customers based on purchasing behavior, demographics, and engagement metrics, resulting in targeted marketing campaigns.",
-      tools: ["Python", "Scikit-learn", "Pandas", "Matplotlib"],
+        "Developed an interactive Power BI dashboard to analyze Blinkit's sales performance. Leveraged SQL and Excel to extract and transform data, providing insights into total sales, average sales, item distribution, and customer ratings. The dashboard enables stakeholders to make informed decisions based on real-time data visualization.​",
+      tools: ["Power BI", "Excel", "Sql"],
       image: "/placeholder.svg?height=200&width=400",
-      link: "#",
+      link: "https://app.fabric.microsoft.com/view?r=eyJrIjoiNGFhMTMzYTgtZGQ4Yy00MjU5LTk2NmEtOWU5YTBhYTQ2ZGVmIiwidCI6IjNkZTg3NDJlLWMwNWYtNGExOC1hNjgyLWUyM2I5MjlmMTM1OSIsImMiOjEwfQ%3D%3D&pageName=b04aaf040550612ab157",
     },
     {
-      title: "Data Warehouse Implementation",
+      title: "Paris 2024 Olympics Dashboard",
       description:
-        "Designed and implemented a cloud-based data warehouse solution, creating ETL pipelines to integrate data from multiple sources for centralized reporting and analysis.",
-      tools: ["Snowflake", "Python", "SQL", "Airflow"],
+        "Designed and developed a visually engaging Power BI dashboard to analyze Paris 2024 Olympic data. The project involved extracting and cleaning data using Python from Kaggle, designing the interface in Figma, and building interactive visualizations in Power BI. Key insights include medal tracking, athlete stats, and country-wise performance, with advanced DAX and Power Query techniques applied for dynamic reporting.",
+      tools: ["Power BI", "DAX", "Power Query", "Python", "Figma", "Kaggle"],
       image: "/placeholder.svg?height=200&width=400",
-      link: "#",
+      link: "https://app.fabric.microsoft.com/view?r=eyJrIjoiN2VjOTM1MWQtMTljOC00Njc4LWFmMTItM2MyYjk1NmFlMTViIiwidCI6IjNkZTg3NDJlLWMwNWYtNGExOC1hNjgyLWUyM2I5MjlmMTM1OSIsImMiOjEwfQ%3D%3D",
     },
   ]
 
