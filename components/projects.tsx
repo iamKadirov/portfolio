@@ -9,12 +9,12 @@ import proimage1 from "../assets/project1.png"
 export default function Projects() {
   const projects = [
     {
-      title: "Sales Performance Dashboard",
+      title: "Coffee Shop Sales Performance Dashboard",
       description:
         "Developed an interactive dashboard to visualize sales performance across different regions and product categories, enabling data-driven decision making for the sales team.",
       tools: ["Power BI", "SQL", "Excel"],
       image: proimage1,
-      link: "#",
+      link: "https://app.powerbi.com/view?r=eyJrIjoiMzcxNTAwNjUtYzIwNy00NzgyLTg0NGItODgxMjBiN2U1N2RkIiwidCI6IjNkZTg3NDJlLWMwNWYtNGExOC1hNjgyLWUyM2I5MjlmMTM1OSIsImMiOjEwfQ%3D%3D",
     },
     {
       title: "Customer Segmentation Analysis",
