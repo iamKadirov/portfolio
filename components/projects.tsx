@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
 //assets
-import proimage1 from "../assets/project1.png"
+import proimage1 from "../assets/CoffeeShop.png"
 
 export default function Projects() {
   const projects = [

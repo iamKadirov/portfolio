@@ -78,24 +78,6 @@ export default function Skills() {
       description: "Data visualization and storytelling",
     },
     {
-      name: "Airflow",
-      icon: (
-        <svg className="w-12 h-12 mx-auto mb-4 text-sky-500" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path d="M12 0L8 6h8l-4-6zm0 24l4-6H8l4 6zM0 12l6-4v8l-6-4zm24 0l-6 4V8l6 4zM7 7l5 3-5 3V7zm10 0v6l-5-3 5-3zm-5 5l5 3v6l-5-3v-6z"/>
-        </svg>
-      ),
-      description: "Workflow orchestration and scheduling",
-    },
-    {
-      name: "Spark",
-      icon: (
-        <svg className="w-12 h-12 mx-auto mb-4 text-orange-500" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path d="M12 0l3 6h6l-4.5 3 1.5 6L12 9l-6 6 1.5-6L3 6h6l3-6z"/>
-        </svg>
-      ),
-      description: "Distributed big data processing and pipeline design",
-    },
-    {
       name: "ClickHouse",
       icon: (
         <svg className="w-12 h-12 mx-auto mb-4 text-yellow-500" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -103,15 +85,6 @@ export default function Skills() {
         </svg>
       ),
       description: "High-speed OLAP and real-time analytics",
-    },
-    {
-      name: "MongoDB",
-      icon: (
-        <svg className="w-12 h-12 mx-auto mb-4 text-green-600" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path d="M12 0c-1.143 5.5-5 10.5-5 16 0 4.418 2.582 8 5 8s5-3.582 5-8c0-5.5-3.857-10.5-5-16z"/>
-        </svg>
-      ),
-      description: "NoSQL data integration for analytical systems",
     },
     {
       name: "Azure Data Factory",
@@ -130,43 +103,7 @@ export default function Skills() {
         </svg>
       ),
       description: "Relational analytics with advanced SQL and AWS",
-    },
-    {
-      name: "Docker",
-      icon: (
-        <svg className="w-12 h-12 mx-auto mb-4 text-blue-500" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path d="M20 8c-1.105 0-2 .895-2 2h2v2h2c0-2.21-1.79-4-4-4zm-8 8h-4v-2h4v2zm6-2h-4v-2h4v2zM6 8h4v2H6V8zm0 4h2v2H6v-2zM2 8h2v2H2V8zm2 4h2v2H4v-2z"/>
-        </svg>
-      ),
-      description: "Containerized environments for scalable deployments",
-    },
-    {
-      name: "Jenkins",
-      icon: (
-        <svg className="w-12 h-12 mx-auto mb-4 text-rose-500" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path d="M12 0a12 12 0 00-2.5 23.7c.4.1.5-.2.5-.5v-1.7c-2 .4-2.4-1-2.4-1-.4-1-.9-1.3-.9-1.3-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.2 1.9.8 2.3.6.1-.5.3-.8.5-1-1.6-.2-3.3-.8-3.3-3.6 0-.8.3-1.5.8-2-.1-.2-.4-1 .1-2 0 0 .7-.2 2.2.8.7-.2 1.5-.3 2.2-.3s1.5.1 2.2.3c1.5-1 2.2-.8 2.2-.8.5 1 .2 1.8.1 2 .5.5.8 1.2.8 2 0 2.8-1.7 3.4-3.3 3.6.3.2.5.7.5 1.4v2c0 .3.1.6.5.5A12 12 0 0012 0z"/>
-        </svg>
-      ),
-      description: "CI/CD automation for data pipelines",
-    },
-    {
-      name: "AWS S3",
-      icon: (
-        <svg className="w-12 h-12 mx-auto mb-4 text-orange-400" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path d="M2 4l10-2 10 2v16l-10 2-10-2V4zm10 14l8-2V6l-8 2v10zM4 6v10l8 2V8L4 6z"/>
-        </svg>
-      ),
-      description: "Cloud storage and data lake support",
-    },
-    {
-      name: "Pandas",
-      icon: (
-        <svg className="w-12 h-12 mx-auto mb-4 text-black" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path d="M6 0h2v24H6V0zm10 0h2v24h-2V0zm-6 6h8v2h-8V6zm0 10h8v2h-8v-2z"/>
-        </svg>
-      ),
-      description: "Efficient data wrangling and transformation in Python",
-    },    
+    }
   ]
 
   return (
