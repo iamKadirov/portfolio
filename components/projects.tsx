@@ -5,6 +5,9 @@ import Link from "next/link"
 
 //assets
 import proimage1 from "../assets/CoffeeShop.png"
+import blinkitimage from "../assets/blinkit.png"
+import Olympics2024 from "../assets/Olympics2024.png"
+import HospitalReport from "../assets/HospitalReport.png"
 
 export default function Projects() {
   const projects = [
@@ -21,7 +24,7 @@ export default function Projects() {
       description:
         "Developed an interactive Power BI dashboard to analyze Blinkit's sales performance. Leveraged SQL and Excel to extract and transform data, providing insights into total sales, average sales, item distribution, and customer ratings. The dashboard enables stakeholders to make informed decisions based on real-time data visualization.​",
       tools: ["Power BI", "Excel", "Sql"],
-      image: "/placeholder.svg?height=200&width=400",
+      image: blinkitimage,
       link: "https://app.fabric.microsoft.com/view?r=eyJrIjoiNGFhMTMzYTgtZGQ4Yy00MjU5LTk2NmEtOWU5YTBhYTQ2ZGVmIiwidCI6IjNkZTg3NDJlLWMwNWYtNGExOC1hNjgyLWUyM2I5MjlmMTM1OSIsImMiOjEwfQ%3D%3D&pageName=b04aaf040550612ab157",
     },
     {
@@ -29,8 +32,16 @@ export default function Projects() {
       description:
         "Designed and developed a visually engaging Power BI dashboard to analyze Paris 2024 Olympic data. The project involved extracting and cleaning data using Python from Kaggle, designing the interface in Figma, and building interactive visualizations in Power BI. Key insights include medal tracking, athlete stats, and country-wise performance, with advanced DAX and Power Query techniques applied for dynamic reporting.",
       tools: ["Power BI", "DAX", "Power Query", "Python", "Figma", "Kaggle"],
-      image: "/placeholder.svg?height=200&width=400",
+      image: Olympics2024,
       link: "https://app.fabric.microsoft.com/view?r=eyJrIjoiN2VjOTM1MWQtMTljOC00Njc4LWFmMTItM2MyYjk1NmFlMTViIiwidCI6IjNkZTg3NDJlLWMwNWYtNGExOC1hNjgyLWUyM2I5MjlmMTM1OSIsImMiOjEwfQ%3D%3D",
+    },
+    {
+      title: "Hospital Dashboard",
+      description:
+        "This Power BI dashboard was built to give healthcare managers a clear, interactive view of hospital operations — covering patients, doctors, facilities, and financials. In addition to core metrics, the report also includes insights on surgeries, appointments, and medicine usage, all integrated within the main pages (Overview, Patient, Doctor, Hospital, Finance). The goal is to support faster, data-driven decisions by presenting complex information in a clean, visual format with intuitive navigation, filters, and key KPIs.",
+      tools: ["Power BI", "DAX", "Power Query", "Figma", "Kaggle"],
+      image: HospitalReport,
+      link: "https://app.fabric.microsoft.com/view?r=eyJrIjoiZjU1M2RlOWEtOWY1MS00ZmViLThhZDktMDk3MDU3NDQ0NWY4IiwidCI6IjNkZTg3NDJlLWMwNWYtNGExOC1hNjgyLWUyM2I5MjlmMTM1OSIsImMiOjEwfQ%3D%3D",
     },
   ]
 
