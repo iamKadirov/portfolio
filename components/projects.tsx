@@ -8,6 +8,8 @@ import proimage1 from "../assets/CoffeeShop.png"
 import blinkitimage from "../assets/blinkit.png"
 import Olympics2024 from "../assets/Olympics2024.png"
 import HospitalReport from "../assets/HospitalReport.png"
+import WeatherReport from "../assets/Weather.png"
+import Attendence from "../assets/Attendence.png"
 
 export default function Projects() {
   const projects = [
@@ -42,6 +44,22 @@ export default function Projects() {
       tools: ["Power BI", "DAX", "Power Query", "Figma", "Kaggle"],
       image: HospitalReport,
       link: "https://app.fabric.microsoft.com/view?r=eyJrIjoiZjU1M2RlOWEtOWY1MS00ZmViLThhZDktMDk3MDU3NDQ0NWY4IiwidCI6IjNkZTg3NDJlLWMwNWYtNGExOC1hNjgyLWUyM2I5MjlmMTM1OSIsImMiOjEwfQ%3D%3D",
+    },
+    {
+      title: "Live Weather & AQI Dashboard",
+      description:
+        "Built a real-time weather and air quality dashboard using Power BI and WeatherAPI. Integrated JSON data, created dynamic DAX measures for AQI interpretation (status, suggestion, color), and designed interactive visuals with city filters and icons. Showcases API integration and advanced data modeling skills.",
+      tools: ["Power BI", "DAX", "Power Query", "WeatherAPI", "Data Modeling"],
+      image: WeatherReport,
+      link: "https://app.fabric.microsoft.com/view?r=eyJrIjoiM2FkYzFiZTMtMWVlOS00YjkyLTgwYzktNjFhZGJmNzY3NzlmIiwidCI6IjNkZTg3NDJlLWMwNWYtNGExOC1hNjgyLWUyM2I5MjlmMTM1OSIsImMiOjEwfQ%3D%3D",
+    },
+    {
+      title: "Employee Attendance Dashboard",
+      description:
+        "Developed an interactive dashboard to monitor employee attendance and working hours. Key features include Top/Bottom N analysis, calendar heatmap with performance indicators, and employee-level drillthrough insights. Used DAX to calculate deviations, status flags, and dynamic filters. Strengthened practical skills in layout design, data modeling, and drillthrough navigation.",
+      tools: ["Power BI", "DAX", "Power Query", "Data Modeling"],
+      image: Attendence,
+      link: "https://app.fabric.microsoft.com/view?r=eyJrIjoiNjVjZDVhNTItYjJmYy00ZjNkLWJhNmQtN2FjMWZmMTc0Zjc1IiwidCI6IjNkZTg3NDJlLWMwNWYtNGExOC1hNjgyLWUyM2I5MjlmMTM1OSIsImMiOjEwfQ%3D%3D",
     },
   ]
 
