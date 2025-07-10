@@ -10,9 +10,18 @@ import Olympics2024 from "../assets/Olympics2024.png"
 import HospitalReport from "../assets/HospitalReport.png"
 import WeatherReport from "../assets/Weather.png"
 import Attendence from "../assets/Attendence.png"
+import PizzaSales from "../assets/Pizza.png"
 
 export default function Projects() {
   const projects = [
+    {
+      title: "Pizza Sales Performance",
+      description:
+        "This Power BI dashboard project analyzes pizza sales performance across categories and time periods. It includes KPIs like Total Revenue, Orders, and Pizzas Sold, supported by MoM and YTD growth tracking, dynamic targets, and conditional formatting. A smart drillthrough system enables deep-dive views by category, with SVG-based visuals like donut charts and rounded bar charts. Advanced features include recommendation logic based on performance trends, fully dynamic titles and metrics via field/numeric parameters, and interactive bookmarks for focused KPI analysis. Designed for decision-makers, this report helps uncover sales drivers, identify underperforming areas, and guide marketing and operational strategy.",
+      tools: ["Power BI", "SQL", "Excel"],
+      image: PizzaSales,
+      link: "https://app.powerbi.com/view?r=https://app.fabric.microsoft.com/reportEmbed?reportId=d6bd4150-9e02-44dd-97a5-513b22445b82&autoAuth=true&ctid=3de8742e-c05f-4a18-a682-e23b929f1359%3D%3D",
+    },
     {
       title: "Coffee Shop Sales Performance Dashboard",
       description:
