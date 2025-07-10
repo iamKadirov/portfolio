@@ -78,24 +78,6 @@ export default function Skills() {
       description: "Data visualization and storytelling",
     },
     {
-      name: "ClickHouse",
-      icon: (
-        <svg className="w-12 h-12 mx-auto mb-4 text-yellow-500" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path d="M3 0h2v24H3V0zm4 0h2v24H7V0zm4 0h2v24h-2V0zm4 0h2v24h-2V0zm4 0h2v24h-2V0z"/>
-        </svg>
-      ),
-      description: "High-speed OLAP and real-time analytics",
-    },
-    {
-      name: "Azure Data Factory",
-      icon: (
-        <svg className="w-12 h-12 mx-auto mb-4 text-blue-600" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path d="M2 2h20v20H2V2zm2 2v16h16V4H4zm4 2h8v2H8V6zm0 4h8v2H8v-2zm0 4h5v2H8v-2z"/>
-        </svg>
-      ),
-      description: "Cloud ETL automation for enterprise pipelines",
-    },
-    {
       name: "PostgreSQL",
       icon: (
         <svg className="w-12 h-12 mx-auto mb-4 text-blue-400" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
