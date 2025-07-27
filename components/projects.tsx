@@ -11,9 +11,18 @@ import HospitalReport from "../assets/HospitalReport.png"
 import WeatherReport from "../assets/Weather.png"
 import Attendence from "../assets/Attendence.png"
 import PizzaSales from "../assets/Pizza.png"
+import SSperformance from "../assets/SSperformance.png"
 
 export default function Projects() {
   const projects = [
+    {
+      title: "Sales Performance",
+      description:
+        "This Sales Performance Dashboard showcases my ability to transform complex sales data into a clear, insightful, and interactive reporting solution using Power BI. Built with a modern layout designed in Figma, the dashboard enables business leaders to monitor dynamic KPIs with YoY indicators, analyze sales trends across months and weeks with auto-quarter logic, and explore detailed city-level and product sub-category performance with intuitive navigation features like pagination and slicers. By leveraging DAX, field parameters, and conditional formatting, I ensured both analytical depth and visual clarity. This project reflects my strong foundation in data modeling, analytical thinking, and dashboard design — all aimed at supporting smarter, faster decision-making in real business environments.",
+      tools: ["Power BI", "SQL", "Excel", "Figma"],
+      image: SSperformance,
+      link: "https://app.fabric.microsoft.com/reportEmbed?reportId=5fa8f3d5-aae9-4b84-8edc-3d95d473df61&autoAuth=true&ctid=3de8742e-c05f-4a18-a682-e23b929f1359",
+    },
     {
       title: "Pizza Sales Performance",
       description:
